@@ -49,7 +49,7 @@ const Page: NextPage<Props> = (props) => {
                   className="member-header__link"
                 >
                   <img
-                    src="/icons/twitter.svg"
+                    src="/team-blog-hub/icons/twitter.svg"
                     alt={`Twitterのユーザー@${twitterUsername}`}
                     width={22}
                     height={22}
@@ -62,7 +62,7 @@ const Page: NextPage<Props> = (props) => {
                   className="member-header__link"
                 >
                   <img
-                    src="/icons/github.svg"
+                    src="/team-blog-hub/icons/github.svg"
                     alt={`GitHubのユーザー@${githubUsername}`}
                     width={22}
                     height={22}
@@ -72,7 +72,7 @@ const Page: NextPage<Props> = (props) => {
               {websiteUrl && (
                 <a href={websiteUrl} className="member-header__link">
                   <img
-                    src="/icons/link.svg"
+                    src="/team-blog-hub/icons/link.svg"
                     alt={`ウェブサイトのリンク`}
                     width={22}
                     height={22}

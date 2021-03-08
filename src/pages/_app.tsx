@@ -13,7 +13,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <link
           rel="icon shortcut"
           type="image/png"
-          href={`${config.siteRoot}/logo.png`}
+          href="https://akira-matsumoto-ss.github.io/team-blog-hub/logo.png"
         />
         <link
           rel="stylesheet"
