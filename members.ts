@@ -17,7 +17,7 @@ export const members: Member[] = [
     websiteUrl: "https://catnose99.com",
   },
   {
-    name: "John Doe",
+    name: "John　Doe",
     role: "SRE",
     bio: "Site Reliability Engineer.",
     avatarSrc: "/team-blog-hub/avatars/doe.jpg",
@@ -34,14 +34,14 @@ export const members: Member[] = [
     twitterUsername: "catnose99",
   },
   {
-    name: "Takada Junji",
+    name: "Takada　Junji",
     role: "Designer",
     bio: "Designing all of the apps in Foo company.",
     avatarSrc: "/team-blog-hub/avatars/junji.jpg",
     sources: [],
   },
   {
-    name: "Ota Naoko",
+    name: "Ota　Naoko",
     role: "Researcher",
     bio: "Some texts here",
     avatarSrc: "/team-blog-hub/avatars/naoko.jpg",
