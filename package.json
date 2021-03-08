@@ -7,7 +7,7 @@
     "build": "run-s build:posts build:next build:export",
     "build:posts": "ts-node --project tsconfig.builder.json ./src/builder/posts.ts",
     "build:next": "next build",
-    "build:export": "next export -o docs",
+    "build:export": "next export -o docs && touch docs/.nojekyll",
     "start": "next start"
   },
   "dependencies": {
