@@ -6,7 +6,7 @@ export const config = {
   },
   siteRoot:
     process.env.NODE_ENV === "production"
-      ? "https://akira-matsumoto-ss.github.io/ss_tech_blog"
+      ? "https://akira-matsumoto-ss.github.io"
       : "http://localhost:3000",
   headerLinks: [
     {
